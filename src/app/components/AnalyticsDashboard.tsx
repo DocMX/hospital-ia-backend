@@ -58,21 +58,21 @@ const kpis = [
   {
     icon: Brain,
     label: "AI Agents Active",
-    value: "128",
+    value: "1",
     change: "+42%",
     color: "cyan",
   },
   {
     icon: Cpu,
     label: "Autonomous Workflows",
-    value: "8,421",
+    value: "1",
     change: "+31%",
     color: "blue",
   },
   {
     icon: Sparkles,
     label: "AI Decisions Processed",
-    value: "24.8K",
+    value: "3",
     change: "+58%",
     color: "purple",
   },
@@ -257,7 +257,7 @@ export default function AnalyticsDashboard() {
                 <YAxis stroke="#666" />
                 <Tooltip
                   contentStyle={{
-                    backgroundColor: "rgba(10, 14, 39, 0.95)",
+                    backgroundColor: "rgba(255, 255, 255, 0.95)",
                     border: "1px solid rgba(255, 255, 255, 0.1)",
                     borderRadius: "12px",
                     backdropFilter: "blur(10px)",
@@ -304,7 +304,7 @@ export default function AnalyticsDashboard() {
                 <YAxis stroke="#666" />
                 <Tooltip
                   contentStyle={{
-                    backgroundColor: "rgba(10, 14, 39, 0.95)",
+                    backgroundColor: "rgba(255, 255, 255, 0.95)",
                     border: "1px solid rgba(255, 255, 255, 0.1)",
                     borderRadius: "12px",
                     backdropFilter: "blur(10px)",
